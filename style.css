@@ -1,0 +1,272 @@
+/***********************
+    CITATION
+************************/
+
+.quote{
+
+    background:#2b2b2b;
+    color:white;
+    text-align:center;
+    padding:120px 10%;
+
+}
+
+.quote blockquote{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:42px;
+    max-width:900px;
+    margin:auto;
+    line-height:1.4;
+    font-style:italic;
+
+}
+
+/***********************
+    CONTACT
+************************/
+
+.contact{
+
+    background:white;
+
+}
+
+.contact-card{
+
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+
+}
+
+.contact-card h2{
+
+    font-family:'Cormorant Garamond',serif;
+    font-size:48px;
+    margin-bottom:20px;
+
+}
+
+.contact-card p{
+
+    font-size:18px;
+    margin:12px 0;
+
+}
+
+.contact-card a{
+
+    color:var(--green);
+    transition:.3s;
+
+}
+
+.contact-card a:hover{
+
+    color:var(--gold);
+
+}
+
+/***********************
+    FOOTER
+************************/
+
+footer{
+
+    background:#222;
+    color:#ddd;
+    text-align:center;
+    padding:40px 20px;
+    font-size:14px;
+    line-height:2;
+
+}
+
+footer p{
+
+    margin:8px 0;
+
+}
+
+/***********************
+    ANIMATIONS
+************************/
+
+.fade{
+
+    opacity:0;
+    transform:translateY(40px);
+    transition:1s ease;
+
+}
+
+.fade.visible{
+
+    opacity:1;
+    transform:translateY(0);
+
+}
+
+.wine img{
+
+    transition:.5s;
+
+}
+
+.wine:hover img{
+
+    transform:scale(1.05);
+
+}
+
+.banner{
+
+    overflow:hidden;
+
+}
+
+.banner:hover{
+
+    transform:scale(1.01);
+    transition:1s;
+
+}
+
+/***********************
+    RESPONSIVE
+************************/
+
+@media(max-width:1100px){
+
+.story{
+
+grid-template-columns:1fr;
+
+}
+
+.wines{
+
+grid-template-columns:1fr;
+
+}
+
+.hero h1{
+
+font-size:58px;
+
+}
+
+.section-title{
+
+font-size:46px;
+
+}
+
+.quote blockquote{
+
+font-size:34px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+header{
+
+padding:20px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+.hero{
+
+padding:0 20px;
+
+}
+
+.hero img{
+
+width:110px;
+
+}
+
+.hero h1{
+
+font-size:46px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.btn{
+
+padding:14px 30px;
+
+}
+
+section{
+
+padding:70px 25px;
+
+}
+
+.story h2{
+
+font-size:38px;
+
+}
+
+.section-title{
+
+font-size:40px;
+
+}
+
+.banner{
+
+height:300px;
+
+}
+
+.wine img{
+
+height:400px;
+
+}
+
+.quote{
+
+padding:80px 25px;
+
+}
+
+.quote blockquote{
+
+font-size:28px;
+
+}
+
+.contact-card h2{
+
+font-size:40px;
+
+}
+
+}
+
+html{
+
+scroll-padding-top:90px;
+
+}
